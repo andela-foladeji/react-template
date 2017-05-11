@@ -1,0 +1,14 @@
+.menu {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-list div {
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.menu-list div:hover {
+    border-bottom: 1px solid #0274b3;
+}

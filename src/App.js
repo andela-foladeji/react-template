@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar/NavBar';
-import logo from './logo.svg';
+import Menu from './Menu/Menu';
+import Main from './Main/Main';
 import './App.css';
 
 class App extends Component {
@@ -8,6 +9,8 @@ class App extends Component {
     return (
       <div>
         <NavBar />
+        <Menu />
+        <Main />
       </div>
     );
   }
