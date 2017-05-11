@@ -1,0 +1,86 @@
+nav {
+    background: #fff;
+    height: 75px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 25px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #666;
+}
+
+.discover {
+    color: #666;
+    height: 20px;
+    line-height: 20px;
+    margin: 27.5px 0 0 20px;
+    float: left;
+    padding-left: 10px;
+    border-left: 1px solid #666;
+}
+
+#drop-arrow{
+    height: 20px;
+    line-height: 20px;
+}
+
+#nav-mobile a {
+    color: #666;
+}
+
+#search-text {
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 45px;
+    margin-top: 15px;
+    float: left;
+    width: 90%;
+    padding: 0 5%;
+    color: #000;
+    position: relative;
+    top: -45px;
+}
+
+#search-icon {
+    height: 45px;
+    line-height: 45px;
+    color: #000;
+    display: block;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+#search-text:focus {
+    color: #000;
+    border: 1px solid blue;
+    box-shadow: none;
+}
+
+.profile-image {
+    height: 25px;
+    width: 25px;
+    border-radius: 12.5px;
+}
+
+#options a{
+    height: 25px;
+    line-height: 25px;
+    margin-top: 25px;
+    color: #000;
+}
+
+#options i {
+    height: 25px;
+    line-height: 25px;
+}
+
+#options a:hover {
+    background: none;
+}
