@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import './left.css';
 
 class LeftBar extends Component {
   render() {
     return (
         <div className="col s3">
             <div className="content">
-                <img src="images/profile-image.png" className="responsive-img circle profile-image-big"/>
+                <img src="images/profile-image.png" className="responsive-img circle profile-image-big" alt="Caroline Belfort"/>
                 <p className="center-align profile-name">Caroline Belfort</p>
                 <p className="center-align location">Statton Oakmont</p>
                 <div id="profile-summary">

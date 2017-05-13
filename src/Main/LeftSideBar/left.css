@@ -1,0 +1,42 @@
+.profile-image-big {
+    width: 60%;
+    margin: 20px 20%
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.location {
+    color: #666;
+}
+
+#profile-summary {
+    height: 75px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+#profile-summary > div:first-child {
+    border-right: 1px solid #ccc;
+}
+
+#profile-summary div {
+    padding-top: 15px;
+    height: 75px;
+    color: #666;
+}
+
+.value {
+    font-weight: bold;
+    color: #000;
+}
+
+.view-profile {
+    height: 50px;
+    line-height: 50px;
+}
+
+.view-profile a {
+    color: #0274b3;
+}

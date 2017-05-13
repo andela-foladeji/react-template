@@ -4,45 +4,56 @@
     background: #fff;
 }
 
-.profile-image-big {
-    width: 60%;
-    margin: 20px 20%
+.main .content {
+    margin-top: 20px;
 }
 
-.profile-name {
-    font-weight: bold;
+.each-section {
+    width: 92%;
+    margin: 0 4%;
+    padding-bottom: 20px;
+    color: #a9a8a8;
 }
 
-.location {
-    color: #666;
-}
-
-#profile-summary {
-    height: 75px;
-    border-top: 1px solid #ccc;
+.each-section-title {
+    line-height: 70px;
+    font-size: 16px;
+    display: block;
+    color: #1b1d1f;
     border-bottom: 1px solid #ccc;
 }
 
-#profile-summary > div:first-child {
-    border-right: 1px solid #ccc;
+.each-section p {
+    line-height: 24px;
+    margin-top: 20px;
+    text-align: justify;
+    color: #a9a8a8;
 }
 
-#profile-summary div {
-    padding-top: 15px;
-    height: 75px;
-    color: #666;
+.each-section .company-img {
+    float: right;
+    width: 60px;
+    margin-top: 20px;
 }
 
-.value {
-    font-weight: bold;
-    color: #000;
+.each-section .experience-summary {
+    float: left;
 }
 
-.view-profile {
-    height: 50px;
-    line-height: 50px;
+.position {
+    color: #1b1d1f;
 }
 
-.view-profile a {
-    color: #0274b3;
+.company {
+    color: #0058a2;
+}
+
+.duration {
+    color: #a9a8a8;
+    font-style: italic;
+}
+
+.experience-description {
+    clear: both;
+    color: #a9a8a8;
 }
